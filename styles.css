@@ -60,5 +60,5 @@ button:hover {
 }
 
 body {
-    background-image: url(images/HadesScreenshot.png);
+    background-image: src="images/HadesScreenshot.png";
 }
