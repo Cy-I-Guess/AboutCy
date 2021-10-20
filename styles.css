@@ -34,7 +34,7 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
+    color: #ff99ff;
 }
 
 button {
@@ -62,4 +62,18 @@ body {
 h1 {
     font-family: "Monsterrat", sans-serif;
     color: #edf0f1;
+}
+
+a:hover {
+    color: #ff99ff;
+}
+
+.Projects {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.About {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
 }
