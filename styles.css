@@ -57,6 +57,7 @@ button:hover {
 
 body {
     background: url("images/HadesScreenshot.png");
+    background-size: cover;
 }
 
 h1 {
