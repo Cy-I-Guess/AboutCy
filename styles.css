@@ -56,9 +56,9 @@ button:hover {
 }
 
 body {
-    background: url("images/HadesScreenshot.png");
+    background: url("images/HadesScreenshot.png") no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 h1 {
