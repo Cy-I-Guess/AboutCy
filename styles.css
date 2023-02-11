@@ -1,3 +1,4 @@
+/*noinspection CssUnknownTarget*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 li, a, button, p {
@@ -6,35 +7,38 @@ li, a, button, p {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    align-content: center;
+    align-items: center;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 30px 10%;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.logo {
-    cursor: pointer;
-}
-
 .nav_links {
     list-style: none;
+    align-items: center;
+    align-content: center;
 }
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0 20px;
+    align-content: center;
 }
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
+    align-content: center;
 }
 
 .nav_links li a:hover {
     color: #ff99ff;
+    align-content: center;
 }
 
 button {
@@ -76,9 +80,15 @@ a:hover {
 .Projects {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
+    height:200px;
+    padding-top:25px;
+    margin-top:25px;
 }
 
 .About {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
+    height:200px;
+    padding-top:25px;
+    margin-top:25px;
 }
