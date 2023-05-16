@@ -66,6 +66,8 @@ body {
     background: url("images/HadesScreenshot.png") no-repeat center;
     background-size: cover;
     height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 h1 {
