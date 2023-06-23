@@ -17,6 +17,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
 }
 
 .nav_links {
@@ -57,9 +58,10 @@ button:hover {
 .Index {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
-    height:200px; 
-    padding-top:25px; 
-    margin-top:25px;
+    height: 200px;
+    padding-top: 25px;
+    margin-top: 25px;
+    border-radius: 50px;
 }
 
 body {
@@ -85,6 +87,7 @@ a:hover {
     height:200px;
     padding-top:25px;
     margin-top:25px;
+    border-radius: 50px;
 }
 
 .About {
@@ -93,6 +96,7 @@ a:hover {
     height:200px;
     padding-top:25px;
     margin-top:25px;
+    border-radius: 50px;
 }
 
 .Socials {
@@ -101,6 +105,7 @@ a:hover {
     height:200px;
     padding-top:25px;
     margin-top:25px;
+    border-radius: 50px;
 }
 
 img {
