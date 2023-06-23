@@ -107,5 +107,14 @@ img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.Github {
+    align-content: center;
+}
+
+.DieHornet {
+    padding-left: 5px;
 }
