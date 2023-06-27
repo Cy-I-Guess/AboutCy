@@ -65,8 +65,7 @@ button:hover {
 }
 
 body {
-    background-color: black;
-    background-image: linear-gradient(to bottom right, #FCF434, #FFFFFF, #9C59D1, #2C2C2C);
+    background: url("images/HadesScreenshot.png") no-repeat center;
     background-size: cover;
     height: 100vh;
     overflow-y: hidden;
