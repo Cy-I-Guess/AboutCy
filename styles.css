@@ -26,18 +26,18 @@ header {
     align-content: center;
 }
 
-.nav_links li {
+.nav_links, li {
     display: inline-block;
     padding: 0 20px;
     align-content: center;
 }
 
-.nav_links li a {
+.nav_links, li, a {
     transition: all 0.3s ease 0s;
     align-content: center;
 }
 
-.nav_links li a:hover {
+.nav_links, li, a:hover {
     color: #ff99ff;
     align-content: center;
 }
@@ -65,7 +65,8 @@ button:hover {
 }
 
 body {
-    background: url("images/HadesScreenshot.png") no-repeat center;
+    background-color: black;
+    background-image: linear-gradient(to bottom right, #FCF434, #FFFFFF, #9C59D1, #2C2C2C);
     background-size: cover;
     height: 100vh;
     overflow-y: hidden;
@@ -125,17 +126,7 @@ img {
 }
 
 @media only screen and (max-width: 500px) {
-    .Index {
-        height: 250px;
-    }
-    .About {
-        height: 250px;
-    }
-    .Socials {
-        height: 250px;
-    }
-
-    .Projects {
+    .Index, .About, .Socials, .Projects {
         height: 250px;
     }
 
@@ -151,19 +142,7 @@ img {
         padding-left: 14px;
     }
 
-    .Github {
-        width: 75px;
-    }
-
-    .Discord {
-        width: 75px;
-    }
-
-    .Instagram {
-        width: 75px;
-    }
-
-    .Twitch {
+    .Github, .Discord, .Instagram, .Twitch {
         width: 75px;
     }
 
@@ -182,5 +161,20 @@ img {
         border-radius: 50px;
         cursor: hand;
         transition: all 0.3s ease 0s;
+    }
+}
+
+html {
+    padding: env(safe-area-insert);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 930px) {
+    body {
+        padding-top: 10px;
+        margin: 0 40px 200px;
+        overflow: scroll;
     }
 }
