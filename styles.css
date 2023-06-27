@@ -47,7 +47,6 @@ button {
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
-    cursor: hand;
     transition: all 0.3s ease 0s;
 }
 
@@ -175,9 +174,5 @@ html {
         padding-top: 10px;
         margin: 0 40px 200px;
         overflow: scroll;
-    }
-
-    html {
-        height: 30%;
     }
 }
