@@ -127,6 +127,7 @@ img {
 @media only screen and (max-width: 500px) {
     .Index, .About, .Socials, .Projects {
         height: 250px;
+        font-size: 10px;
     }
 
     img {
@@ -169,20 +170,28 @@ html {
     width: 100%;
     overflow: hidden;
 }
-
+ /* larger screens */
 @media only screen and (min-width: 780px) and (max-width: 930px) {
     body {
-        padding-top: 10px;
+        padding-top: 5px;
         margin: 0 40px;
         overflow: scroll;
     }
     
     .showcase {
-        height: 1px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .fSlash3 {
+        visibility: hidden;
     }
 
     .Index, .About, .Socials, .Projects {
         height: 200px;
+    }
+    p {
+        font-size: 16px;
     }
 }
 
